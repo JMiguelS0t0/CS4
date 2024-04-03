@@ -1,6 +1,7 @@
 ﻿
 using System.Net.Http.Headers;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace API_S4
 {
@@ -9,8 +10,8 @@ namespace API_S4
         public static void Register(HttpConfiguration config)
         {
             // Habilitar CORS
-            config.EnableCors();
-
+            var corsAttr = new EnableCorsAttribute("*", "*", "*");
+            config.EnableCors(corsAttr);
             // Rutas de API web
             config.MapHttpAttributeRoutes();
 
