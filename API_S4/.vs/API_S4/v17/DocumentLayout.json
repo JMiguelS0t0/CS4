@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Personal\\source\\repos\\JMiguelS0t0\\CS4\\API_S4\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BD0A6067-0EF3-4687-B066-EB28D240F9CB}|API_S4\\API_S4.csproj|c:\\users\\personal\\source\\repos\\jmiguels0t0\\cs4\\api_s4\\api_s4\\data\\usuariodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD0A6067-0EF3-4687-B066-EB28D240F9CB}|API_S4\\API_S4.csproj|solutionrelative:api_s4\\data\\usuariodata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BD0A6067-0EF3-4687-B066-EB28D240F9CB}|API_S4\\API_S4.csproj|c:\\users\\personal\\source\\repos\\jmiguels0t0\\cs4\\api_s4\\api_s4\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD0A6067-0EF3-4687-B066-EB28D240F9CB}|API_S4\\API_S4.csproj|solutionrelative:api_s4\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -23,12 +27,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "UsuarioData.cs",
+              "DocumentMoniker": "C:\\Users\\Personal\\source\\repos\\JMiguelS0t0\\CS4\\API_S4\\API_S4\\Data\\UsuarioData.cs",
+              "RelativeDocumentMoniker": "API_S4\\Data\\UsuarioData.cs",
+              "ToolTip": "C:\\Users\\Personal\\source\\repos\\JMiguelS0t0\\CS4\\API_S4\\API_S4\\Data\\UsuarioData.cs",
+              "RelativeToolTip": "API_S4\\Data\\UsuarioData.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAwwE4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-03T19:06:44.372Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "WebApiConfig.cs",
               "DocumentMoniker": "C:\\Users\\Personal\\source\\repos\\JMiguelS0t0\\CS4\\API_S4\\API_S4\\App_Start\\WebApiConfig.cs",
               "RelativeDocumentMoniker": "API_S4\\App_Start\\WebApiConfig.cs",
               "ToolTip": "C:\\Users\\Personal\\source\\repos\\JMiguelS0t0\\CS4\\API_S4\\API_S4\\App_Start\\WebApiConfig.cs",
               "RelativeToolTip": "API_S4\\App_Start\\WebApiConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA9AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-03T19:01:35.757Z",
               "EditorCaption": ""

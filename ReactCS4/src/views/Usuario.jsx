@@ -1,5 +1,8 @@
 import axios from "axios";
+import react from "./../assets/react.svg";
+import Clogo from "./../assets/Clogo.svg";
 import { useEffect, useState } from "react";
+import "./../App.css";
 
 const Usuario = () => {
   const [Usuarios, setUsuarios] = useState([]);
@@ -16,18 +19,43 @@ const Usuario = () => {
   }, []);
 
   return (
-    <ul>
-      {Usuarios.map((usuario) => (
-        <li key={usuario.id}>
-          <h2>{usuario.DocumentoIdentidad}</h2>
-          <h2>{usuario.Nombres}</h2>
-          <h2>{usuario.Telefono}</h2>
-          <h2>{usuario.Correo}</h2>
-          <h2>{usuario.Ciudad}</h2>
-          <h2>{usuario.FechaRegistro}</h2>
-        </li>
-      ))}
-    </ul>
+    <>
+      <div>
+        <a target="_blank">
+          <img src={react} className="logo react" alt="React logo" />
+        </a>
+        <a target="_blank">
+          <img src={Clogo} className="logo C#" alt="C# logo" />
+        </a>
+      </div>
+      <h1>API C# + React</h1>
+      <div className="card">
+        <table className="table">
+          <thead>
+            <tr>
+              <th>Documento de Identidad</th>
+              <th>Nombres</th>
+              <th>Telefono</th>
+              <th>Correo</th>
+              <th>Ciudad</th>
+              <th>Fecha de Registro</th>
+            </tr>
+          </thead>
+          <tbody>
+            {Usuarios.map((usuario) => (
+              <tr key={usuario.id}>
+                <td>{usuario.DocumentoIdentidad}</td>
+                <td>{usuario.Nombres}</td>
+                <td>{usuario.Telefono}</td>
+                <td>{usuario.Correo}</td>
+                <td>{usuario.Ciudad}</td>
+                <td>{usuario.FechaRegistro}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </>
   );
 };
 
