@@ -7,6 +7,6 @@ namespace API_S4.Data
 {
     public class Conexion
     {
-        public static string rutaConexion = "Data Source =DBPRUEBAS1; Initial Catalog = USUARIO; Integrated Security = True";
+        public static string rutaConexion = "Data Source =.; Initial Catalog = DBPRUEBAS1; Integrated Security = True";
     }
 }
